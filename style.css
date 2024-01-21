@@ -1,0 +1,149 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1, header nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img.petee-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #003049;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.about-inner {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about-inner h3,
+.about-inner p {
+  text-align: left;
+}
+
+#about > section:last-child {
+  margin-top: 20px;
+}
+
+.about-inner ul {
+  list-style-position: inside;
+}
+
+.container {
+display: flex;
+align-items: left;
+justify-content: left;
+}
+/* Portfolio section */
+#portfolio h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+}
+
+img {
+  width: 228px;
+  height: 400px;
+}
+#contact h2 {
+  margin-bottom: 50px; 
+}
+
+#contact p {
+  margin-top: 50px; 
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+
+
+
