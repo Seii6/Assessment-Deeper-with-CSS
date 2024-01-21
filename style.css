@@ -71,7 +71,7 @@ img.petee-image {
   height: 200px;
   border-radius: 50%;
   border: 2px solid #003049;
-  margin: auto;
+  margin: 60px;
 }
 
 /* Footer */
@@ -86,7 +86,7 @@ hr {
 
 .about-inner {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
 }
@@ -109,11 +109,16 @@ display: flex;
 align-items: left;
 justify-content: left;
 }
+.about-inner section {
+  flex: 1;
+}
 /* Portfolio section */
 #portfolio h2 {
   text-align: center;
 }
-
+.item p {
+  font-size: 14px;
+}
 .container {
   display: flex;
 }
@@ -126,22 +131,29 @@ justify-content: left;
 
 img {
   width: 228px;
-  height: 400px;
+  height: 300px;
 }
 #contact h2 {
-  margin-bottom: 50px; 
+  margin-top: 5px; 
+  margin-bottom: 5px; 
 }
 
 #contact p {
-  margin-top: 50px; 
+  margin-top: 5px; 
 }
 
-#portfolio h2 {
-  text-align: center;
+#portfolio {
+  display: grid;
+  place-items: center;
 }
 
-#contact h2 {
-  text-align: center;
+#contact {
+  display: grid;
+  place-items: center;
+}
+
+ul li, ol li {
+  text-align: left;
 }
 
 
